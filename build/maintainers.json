@@ -64,9 +64,6 @@
   "/12306/zxdt/:id?": [
     "LogicJake"
   ],
-  "/005/:category?": [
-    "nczitzk"
-  ],
   "/0818tuan/:listId?": [
     "TonyRL"
   ],
@@ -91,9 +88,8 @@
   "/19lou/:city?": [
     "nczitzk"
   ],
-  "/1lou/:params{.+}?": [
-    "falling",
-    "nczitzk"
+  "/1lou/:path?": [
+    "falling"
   ],
   "/1point3acres/blog/:category?": [
     "nczitzk"
@@ -1970,8 +1966,7 @@
     "lone1y-51"
   ],
   "/gamer/gnn/:category?": [
-    "Arracc",
-    "ladeng07"
+    "Arracc"
   ],
   "/gamer/hot/:bsn": [
     "nczitzk",
@@ -2056,9 +2051,7 @@
   "/github/contributors/:user/:repo/:order?/:anon?": [
     "zoenglinghou"
   ],
-  "/github/file/:user/:repo/:branch/:filepath{.+}": [
-    "zengxs"
-  ],
+  "/github/file/:user/:repo/:branch/:filepath{.+}": [],
   "/github/user/followers/:user": [
     "HenryQW"
   ],
@@ -2287,9 +2280,7 @@
   "/gov/moj/aac/news/:type?": [
     "TonyRL"
   ],
-  "/gov/mot/:category{.+}?": [
-    "ladeng07"
-  ],
+  "/gov/mot/:category{.+}?": [],
   "/gov/ndrc/fggz/:category{.+}?": [],
   "/gov/ndrc/xwdt/:category{.+}?": [],
   "/gov/nea/sjzz/ghs": [
@@ -3156,9 +3147,6 @@
   "/jump/discount/:platform/:filter?/:countries?": [
     "zytomorrow"
   ],
-  "/junhe/legal-updates": [
-    "nczitzk"
-  ],
   "/kamen-rider-official/news/:category?": [
     "nczitzk"
   ],
@@ -3491,9 +3479,8 @@
   "/mindmeister/:category?/:language?": [
     "TonyRL"
   ],
-  "/minecraft/version/:versionType?/:linkType?": [
-    "TheresaQWQ",
-    "xtexChooser"
+  "/minecraft/version": [
+    "TheresaQWQ"
   ],
   "/mingpao/:type?/:category?": [
     "TonyRL"
@@ -3521,10 +3508,7 @@
     "EsuRt",
     "queensferryme"
   ],
-  "/miui/community/user/:uid": [
-    "abc1763613206"
-  ],
-  "/miui/firmware/:device/:type?/:region?": [
+  "/miui/:device/:type?/:region?": [
     "Indexyz"
   ],
   "/mixcloud/:username/:type?": [
@@ -3912,7 +3896,7 @@
     "bennyyip"
   ],
   "/ntdm/video/:id": [
-    "Yamico"
+    "alexhere"
   ],
   "/ntdtv/:language/:id": [
     "Fatpandac"
